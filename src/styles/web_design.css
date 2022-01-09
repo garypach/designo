@@ -1,0 +1,26 @@
+.design-text-title{
+    font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+
+text-align: center;
+letter-spacing: 5px;
+
+color: #E7816B;
+}
+
+.design-text-body{
+    font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #333136;
+}

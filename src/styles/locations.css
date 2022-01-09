@@ -1,0 +1,40 @@
+.location-text-title{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+    
+    text-align: center;
+    
+    color: #E7816B;
+    
+}
+
+.location-text-location{
+    font-family: Jost;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #333136;
+
+}
+
+.location-text-body{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    
+    text-align: center;
+    
+    color: #333136;
+}

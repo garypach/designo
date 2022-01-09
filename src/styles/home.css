@@ -1,0 +1,80 @@
+.hero-text{
+    font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.hero-subtext{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.project-text-title{
+    font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+text-align: center;
+letter-spacing: 1.4px;
+
+color: #FFFFFF;
+}
+
+.project-text-body{
+    font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.illustration-text-title{
+    font-family: Jost;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+
+text-align: center;
+letter-spacing: 5px;
+
+color: #333136;
+}
+
+.illustration-text-body{
+    font-family: Jost;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #333136;
+}

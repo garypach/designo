@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">.
+    <title>My First Parcel App</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/web_design.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet"> 
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+  <header class="header">
+      <nav class="navbar z-50">
+          <a href="#" class="nav-logo">Designo</a>
+          <ul class="nav-menu z-50">
+              <li class="nav-item">
+                <a href="/src/about.html" class="nav-link">our company</a>
+              </li>
+              <li class="nav-item">
+                <a href="/src/locations.html" class="nav-link">locations</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">contact</a>
+              </li>
+          </ul>
+          <button class="border-none">
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+          </button>
+       
+      </nav>
+  </header>  
+
+  <main>
+    <div class="flex flex-col items-center bg-peach w-100 relative overflow-hidden z-10  px-5 py-32">
+      <div class="">
+        <div class="w-100">
+          <p class="hero-text">
+              graphic design
+          </p>
+        </div>
+        <div class="w-100 mt-4">
+          <p class="hero-subtext">
+            We deliver eye-catching branding materials that are tailored to meet your business objectives.           </div>
+      <div class="w-100">
+        <img class="absolute top-0 right-0 w-[360px] rotate-180" src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
+       </div>
+      </div>
+    </div>
+    <div class="px-5 mt-32 flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center max-w-[327px]">
+            <div>
+                <img src="../public/assets/graphic-design/desktop/image-change.jpg"/>
+            </div>
+            <div class="p-12 bg-light-grey rounded-b-lg">
+                <p class="design-text-title">tim brown</p>
+                <p class="design-text-body mt-5">A book cover designed for 
+                  Tim Brown's new release, 'Change'</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center max-w-[327px] mt-10">
+            <div>
+              <img src="../public/assets/graphic-design/desktop/image-boxed-water.jpg"/>
+            </div>
+            <div class="p-12 bg-light-grey rounded-b-lg">
+                <p class="design-text-title">boxed water</p>
+                <p class="design-text-body mt-5">A simple packaging concept made for Boxed Water</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center max-w-[327px] mt-10">
+            <div>
+              <img src="../public/assets/graphic-design/desktop/image-science.jpg"/>
+            </div>
+            <div class="p-12 bg-light-grey rounded-b-lg">
+                <p class="design-text-title">science!</p>
+                <p class="design-text-body mt-5">A poster made in collaboration with the Federal Art Project</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="flex flex-col justify-center px-5">
+    
+        <div class="relative rounded-lg bg-black mt-32 min-h-[250px] cursor-pointer">
+            <a href="/src/webDesign.html">
+            <picture class="rounded-lg">
+              <source srcset="../public/assets/home/tablet/image-web-design.jpg"
+              media="(min-width: 426px)">
+              <source srcset="../public/assets/home/desktop/image-web-design-small.jpg"
+              media="(min-width: 800px)">
+              <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-web-design.jpg" alt="" />
+            </picture>
+            <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
+              <p class="project-text-title">web design</p>
+                <p class="project-text-body mt-4">view projects <span>></span></p>
+              </div>      
+            </a> 
+          </div>
+     
+          <div class="relative rounded-lg bg-black mt-5 min-h-[250px]">
+            <a href="/src/graphicDesign.html">
+            <picture class="rounded-lg">
+              <source srcset="../public/assets/home/tablet/image-graphic-design.jpg"
+              media="(min-width: 426px)">
+              <source srcset="../public/assets/home/desktop/image-graphic-design.jpg"
+              media="(min-width: 800px)">
+              <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-graphic-design.jpg" alt="" />
+            </picture>
+            <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
+              <p class="project-text-title">graphic design</p>
+                <p class="project-text-body mt-4">view projects <span>></span></p>
+              </div>     
+              </a>  
+          </div>
+
+    </div>
+
+    
+   
+  </main>
+
+  <footer>
+    <div class="bg-black pt-[253px] pb-[64px] mt-[294px] relative flex flex-col justify-center items-center w-100">
+      <div class="bg-peach absolute left-50 -top-56 py-[72px] px-[24px] w-100 max-w-[327px] rounded-lg">
+        <div>
+          <p class="footer-orangeblock-title">Let's talk about your project</p>
+          <p class="footer-orangeblock-body mt-5">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+        </div>
+        <div>
+          <button class="p-4 bg-white rounded-lg mt-[32px]">get in touch</button>
+        </div>
+      </div>
+
+
+      <div class="uppercase flex flex-col justify-center items-center"> 
+        <div class="pb-[32px] ">
+          <img src="../public/assets/shared/desktop/logo-light.png" width="200" height="200" alt="logo"/>
+        </div>
+        <div>
+          <p class="footer-link ">our company</p>
+          <p class="footer-link mt-[32px]">locations</p>
+          <p class="footer-link mt-[32px]">contact</p>
+        </div>
+      </div>
+
+
+      <div class="flex flex-col justify-center items-center">
+        <div>
+          <p class="footer-text-title mt-[40px]">Designo Central Office</p>
+          <p class="footer-text-body">
+            3886 Wellington StreetToronto, Ontario M9C 3J5            </p>
+        </div>
+        <div>
+          <p class="footer-text-title mt-[40px] ">Contact Us (Central Office)</p>
+          <p class="footer-text-body">P : +1 253-863-8967</p>
+          <p class="footer-text-body">M : contact@designo.co</p>
+        </div>
+        <div class="mt-[40px] ">
+          <ul class="flex">
+            <li class="mr-[16px]"><img src="../public/assets/shared/desktop/icon-facebook.svg"/> </li>
+            <li class="mr-[16px]"><img src="../public/assets/shared/desktop/icon-youtube.svg"/> </li>
+            <li class="mr-[16px]"><img src="../public/assets/shared/desktop/icon-twitter.svg"/> </li>
+            <li class="mr-[16px]"><img src="../public/assets/shared/desktop/icon-pinterest.svg"/> </li>
+            <li><img src="../public/assets/shared/desktop/icon-instagram.svg"/> </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
