@@ -19,128 +19,129 @@
   <body>
     <header class="header">
       <nav class="navbar z-50">
-        <a href="#" class="nav-logo">Designo</a>
-        <ul class="nav-menu z-50">
-          <li class="nav-item">
-            <a href="/src/about.html" class="nav-link">our company</a>
-          </li>
-          <li class="nav-item">
-            <a href="/src/locations.html" class="nav-link">locations</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">contact</a>
-          </li>
-        </ul>
-        <button class="border-none">
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <a href="/src/index.html" class="nav-logo"><img src="../public/assets/shared/desktop/logo-dark.png" width="200"/></a>
+          <ul class="nav-menu z-50">
+              <li class="nav-item">
+                  <a href="/src/about.html" class="nav-link">our company</a>
+              </li>
+              <li class="nav-item">
+                <a href="/src/locations.html" class="nav-link">locations</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">contact</a>
+              </li>
+          </ul>
+          <button class="border-none">
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
           </div>
-        </button>
+          </button>
+       
       </nav>
-    </header>
+  </header>  
 
     <main>
-      <div >
+      <div  class="flex flex-col justify-center items-center sm:justify-around lg:flex-row lg:flex-row-reverse lg:max-w-[1111px] lg:mx-auto">
         <div>
           <picture class="">
             <source
               srcset="../public/assets/locations/desktop/image-map-canada.png"
-              media="(min-width: 800px)"
+              media="(min-width: 1024px)"
             />
             <img
-              class=""
+              class=" sm:rounded-lg sm:mt-10 lg:min-w-[350px] lg:min-h-[326px]"
               src="../public/assets/locations/tablet/image-map-canada.png"
               alt=""
             />
           </picture>
         </div>
-        <div class="bg-light-grey p-12">
-          <div>
-            <p class="location-text-title">Canada</p>
+        <div class="bg-light-grey p-12 w-full sm:mt-10 sm:rounded-lg sm:max-w-[689px] lg:min-h-[326px] lg:items-center">
+          <div class="lg:mt-10">
+            <p class="location-text-title lg:text-left">Canada</p>
           </div>
-          <div>
-            <div>
-              <p class="location-text-location mt-5">Designo Central </p>
-              <p class="location-text-body">
+          <div class="sm:flex sm:justify-evenly lg:justify-start ">
+            <div class="sm:max-w-[200px] lg:mr-10">
+              <p class="location-text-location mt-5 sm:text-left">Designo Central </p>
+              <p class="location-text-body sm:text-left">
                 Office 3886 Wellington StreetToronto, Ontario
                 M9C 3J5
               </p>
             </div>
             <div>
-              <p class="location-text-location mt-5">Contact</p>
-              <p class="location-text-body">P : +1 253-863-8967</p>
-              <p class="location-text-body">M : contact@designo.co</p>
+              <p class="location-text-location mt-5 sm:text-left">Contact</p>
+              <p class="location-text-body sm:text-left">P : +1 253-863-8967</p>
+              <p class="location-text-body sm:text-left">M : contact@designo.co</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="mt-20">
+      <div  class=" mt-20 flex flex-col justify-center items-center sm:justify-around  lg:flex-row  lg:max-w-[1111px] lg:mx-auto">
         <div>
           <picture class="">
             <source
               srcset="
                 ../public/assets/locations/desktop/image-map-australia.png
               "
-              media="(min-width: 800px)"
+              media="(min-width: 1024px)"
             />
             <img
-              class=""
-              src="../public/assets/locations/tablet/image-map-australia.png"
+            class="w-full sm:rounded-lg sm:mt-10 lg:min-w-[350px] lg:min-h-[326px]"
+            src="../public/assets/locations/tablet/image-map-australia.png"
               alt=""
             />
           </picture>
         </div>
-        <div class="bg-light-grey p-12">
-          <div>
-            <p class="location-text-title">Australia</p>
+        <div class="bg-light-grey p-12 w-full sm:mt-10 sm:rounded-lg sm:max-w-[689px] lg:min-h-[326px] lg:items-center">
+          <div class="lg:mt-10">
+            <p class="location-text-title lg:text-left">Australia</p>
           </div>
-          <div>
-            <div>
-              <p class="location-text-location mt-5">Designo AU Office</p>
-              <p class="location-text-body">
+          <div class="sm:flex sm:justify-evenly lg:justify-start">
+            <div class="sm:max-w-[200px] lg:mr-10">
+              <p class="location-text-location mt-5 sm:text-left">Designo AU Office</p>
+              <p class="location-text-body sm:text-left">
                 19 Balonne StreetNew South Wales 2443
               </p>
             </div>
             <div>
-              <p class="location-text-location mt-5">Contact</p>
-              <p class="location-text-body">P : (02) 6720 9092</p>
-              <p class="location-text-body">M : contact@designo.au</p>
+              <p class="location-text-location mt-5 sm:text-left">Contact</p>
+              <p class="location-text-body sm:text-left">P : (02) 6720 9092</p>
+              <p class="location-text-body sm:text-left">M : contact@designo.au</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="mt-20">
+      <div  class=" mt-20 flex flex-col justify-center items-center sm:justify-around lg:flex-row lg:flex-row-reverse  lg:max-w-[1111px] lg:mx-auto">
         <div>
           <picture class="">
             <source
               srcset="../public/assets/locations/desktop/image-map-united-kingdom.png"
-              media="(min-width: 800px)"
+              media="(min-width: 1024px)"
             />
             <img
-              class=""
-              src="../public/assets/locations/tablet/image-map-uk.png"
+            class="w-full sm:rounded-lg sm:mt-10 lg:min-w-[350px] lg:min-h-[326px]"
+            src="../public/assets/locations/tablet/image-map-uk.png"
               alt=""
             />
           </picture>
         </div>
-        <div class="bg-light-grey p-12">
-          <div>
-            <p class="location-text-title">United Kingdom</p>
+        <div class="bg-light-grey p-12 w-full sm:mt-10 sm:rounded-lg sm:max-w-[689px] lg:min-h-[326px] lg:items-center">
+          <div class="lg:mt-10">
+            <p class="location-text-title lg:text-left">United Kingdom</p>
           </div>
-          <div>
-            <div>
-              <p class="location-text-location mt-5">Designo UK Office</p>
-              <p class="location-text-body">
+          <div class="sm:flex sm:justify-evenly lg:justify-start">
+            <div class="sm:max-w-[200px] lg:mr-10">
+              <p class="location-text-location mt-5 sm:text-left">Designo UK Office</p>
+              <p class="location-text-body sm:text-left">
                 13  Colorado WayRhyd-y-fro SA8 9GA              </p>
             </div>
             <div>
-              <p class="location-text-location mt-5">Contact</p>
-              <p class="location-text-body">P : 078 3115 1400</p>
-              <p class="location-text-body">M : contact@designo.uk</p>
+              <p class="location-text-location mt-5 sm:text-left">Contact</p>
+              <p class="location-text-body sm:text-left">P : 078 3115 1400</p>
+              <p class="location-text-body sm:text-left">M : contact@designo.uk</p>
             </div>
           </div>
         </div>

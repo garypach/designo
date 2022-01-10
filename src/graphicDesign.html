@@ -14,12 +14,12 @@
     <script type="module" src="app.js"></script>
   </head>
   <body>
-  <header class="header">
+    <header class="header">
       <nav class="navbar z-50">
-          <a href="#" class="nav-logo">Designo</a>
+          <a href="/src/index.html" class="nav-logo"><img src="../public/assets/shared/desktop/logo-dark.png" width="200"/></a>
           <ul class="nav-menu z-50">
               <li class="nav-item">
-                <a href="/src/about.html" class="nav-link">our company</a>
+                  <a href="/src/about.html" class="nav-link">our company</a>
               </li>
               <li class="nav-item">
                 <a href="/src/locations.html" class="nav-link">locations</a>
@@ -37,55 +37,60 @@
           </button>
        
       </nav>
-  </header>  
+  </header> 
 
   <main>
-    <div class="flex flex-col items-center bg-peach w-100 relative overflow-hidden z-10  px-5 py-32">
+    <div class="flex flex-col items-center bg-peach w-full justify-center relative overflow-hidden z-10  px-5 py-32 sm:mt-10 sm:mx-auto sm:rounded-lg sm:max-w-[689px] lg:flex-row lg:text-left lg:max-w-[1111px] lg:max-h-[640px] lg:px-[95px] lg:mx-auto">
       <div class="">
         <div class="w-100">
-          <p class="hero-text">
-              graphic design
+          <p class="hero-text capitalize">
+              Graphic Design
           </p>
         </div>
         <div class="w-100 mt-4">
           <p class="hero-subtext">
-            We deliver eye-catching branding materials that are tailored to meet your business objectives.           </div>
+            We deliver eye-catching branding materials that are tailored to meet your business objectives.
+          </p>  
+          </div>
+      </div>
       <div class="w-100">
         <img class="absolute top-0 right-0 w-[360px] rotate-180" src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
        </div>
       </div>
-    </div>
-    <div class="px-5 mt-32 flex flex-col justify-center items-center">
-        <div class="flex flex-col justify-center items-center max-w-[327px]">
+
+    <div class="px-5 mt-32 flex flex-col justify-center items-center lg:flex-row">
+        <div class="flex flex-col justify-center  items-center max-w-[327px] sm:flex-row sm:max-w-[689px] lg:flex-col lg:max-w-[350px] lg:mr-[30px]">
             <div>
-                <img src="../public/assets/graphic-design/desktop/image-change.jpg"/>
+                <img class="sm:min-w-[338px] sm:min-h-[310px] sm:max-h-[310px] lg:w-full lg:max-w-[350px] lg:min-w-0" src="../public/assets/graphic-design/desktop/image-change.jpg"/>
             </div>
-            <div class="p-12 bg-light-grey rounded-b-lg">
-                <p class="design-text-title">tim brown</p>
-                <p class="design-text-body mt-5">A book cover designed for 
+            <div class="p-10 bg-light-grey rounded-b-lg sm:flex sm:flex-col sm:justify-center sm:items-center sm:min-h-[310px] sm:rounded-none sm:rounded-r-lg lg:rounded-none lg:rounded-b-lg  lg:min-h-0 lg:max-w-[350px] lg:max-h-[478px]">
+              <p class="design-text-title">TIM BROWN</p>
+                <p class="design-text-body mt-4">A book cover designed for 
                   Tim Brown's new release, 'Change'</p>
             </div>
         </div>
 
-        <div class="flex flex-col justify-center items-center max-w-[327px] mt-10">
-            <div>
-              <img src="../public/assets/graphic-design/desktop/image-boxed-water.jpg"/>
+        <div class="flex flex-col justify-center mt-10 items-center max-w-[327px] sm:flex-row sm:max-w-[689px] sm:mt-10 lg:mt-0 lg:flex-col lg:max-w-[350px] lg:mr-[30px] ">
+          <div>
+                <img class=" sm:min-w-[338px] sm:min-h-[310px] sm:max-h-[310px]  lg:w-full lg:max-w-[350px] lg:min-w-0" src="../public/assets/graphic-design/desktop/image-boxed-water.jpg"/>
             </div>
-            <div class="p-12 bg-light-grey rounded-b-lg">
-                <p class="design-text-title">boxed water</p>
-                <p class="design-text-body mt-5">A simple packaging concept made for Boxed Water</p>
+            <div class="p-10 bg-light-grey rounded-b-lg sm:flex sm:flex-col sm:justify-center sm:items-center sm:min-h-[310px] sm:rounded-none sm:rounded-r-lg lg:rounded-none lg:rounded-b-lg  lg:min-h-0 lg:max-w-[350px] lg:max-h-[478px]">
+              <p class="design-text-title">BOXED WATER</p>
+                <p class="design-text-body mt-4">A simple packaging concept made for Boxed Water</p>
             </div>
         </div>
 
-        <div class="flex flex-col justify-center items-center max-w-[327px] mt-10">
-            <div>
-              <img src="../public/assets/graphic-design/desktop/image-science.jpg"/>
+        <div class="flex flex-col justify-center items-center  mt-10 max-w-[327px] sm:flex-row sm:max-w-[689px] sm:mt-10 lg:mt-0 lg:flex-col lg:max-w-[350px]">
+          <div>
+                <img class=" sm:min-w-[338px] sm:min-h-[310px] sm:max-h-[310px] lg:w-full lg:max-w-[350px] lg:min-w-0" src="../public/assets/graphic-design/desktop/image-science.jpg"/>
             </div>
-            <div class="p-12 bg-light-grey rounded-b-lg">
-                <p class="design-text-title">science!</p>
-                <p class="design-text-body mt-5">A poster made in collaboration with the Federal Art Project</p>
+            <div class="p-10 bg-light-grey rounded-b-lg sm:flex sm:flex-col sm:justify-center sm:items-center sm:min-h-[310px] sm:rounded-none sm:rounded-r-lg lg:rounded-none lg:rounded-b-lg  lg:min-h-0 lg:max-w-[350px] lg:max-h-[478px]">
+              <p class="design-text-title">SCIENCE!</p>
+                <p class="design-text-body mt-4">A poster made in collaboration with the Federal Art Project</p>
             </div>
         </div>
+    </div>
+
     </div>
 
 
@@ -93,39 +98,40 @@
 
 
 
-    <div class="flex flex-col justify-center px-5">
+    <div class="flex flex-col justify-center w-full  mx-auto px-5 lg:flex-row sm:max-w-[689px] lg:max-w-[1112px] lg:p-0 lg:mx-auto">
     
-        <div class="relative rounded-lg bg-black mt-32 min-h-[250px] cursor-pointer">
-            <a href="/src/webDesign.html">
-            <picture class="rounded-lg">
-              <source srcset="../public/assets/home/tablet/image-web-design.jpg"
-              media="(min-width: 426px)">
-              <source srcset="../public/assets/home/desktop/image-web-design-small.jpg"
-              media="(min-width: 800px)">
-              <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-web-design.jpg" alt="" />
-            </picture>
-            <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
-              <p class="project-text-title">web design</p>
-                <p class="project-text-body mt-4">view projects <span>></span></p>
-              </div>      
-            </a> 
-          </div>
-     
-          <div class="relative rounded-lg bg-black mt-5 min-h-[250px]">
-            <a href="/src/graphicDesign.html">
-            <picture class="rounded-lg">
-              <source srcset="../public/assets/home/tablet/image-graphic-design.jpg"
-              media="(min-width: 426px)">
-              <source srcset="../public/assets/home/desktop/image-graphic-design.jpg"
-              media="(min-width: 800px)">
-              <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-graphic-design.jpg" alt="" />
-            </picture>
-            <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
-              <p class="project-text-title">graphic design</p>
-                <p class="project-text-body mt-4">view projects <span>></span></p>
-              </div>     
-              </a>  
-          </div>
+      <div class="relative rounded-lg bg-black mt-5 min-h-[250px] lg:max-w-[541px] lg:mr-10">
+        <a href="/src/webDesign.html">
+        <picture class="rounded-lg">
+          <source srcset="../public/assets/home/tablet/image-web-design.jpg"
+          media="(min-width: 426px)">
+          <source srcset="../public/assets/home/desktop/image-web-design-large.jpg"
+          media="(min-width: 800px)">
+          <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-web-design.jpg" alt="" />
+        </picture>
+          <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
+            <p class="project-text-title">Web Design</p>
+            <p class="project-text-body mt-4">View Projects <span>></span></p>
+          </div>   
+          </a>    
+      </div>
+
+      
+      <div class="relative rounded-lg bg-black mt-5 min-h-[250px] lg:max-w-[541px]">
+        <a href="/src/graphicDesign.html">
+        <picture class="rounded-lg">
+          <source srcset="../public/assets/home/tablet/image-app-design.jpg"
+          media="(min-width: 426px)">
+          <source srcset="../public/assets/home/desktop/image-app-design.jpg"
+          media="(min-width: 800px)">
+          <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-app-design.jpg" alt="" />
+        </picture>
+        <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
+          <p class="project-text-title">App Design</p>
+            <p class="project-text-body mt-4">View Projects <span>></span></p>
+          </div>     
+          </a>  
+      </div>
 
     </div>
 
