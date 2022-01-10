@@ -42,19 +42,20 @@
     </header>
 
     <main>
-        <div class="flex flex-col justify-center items-center">
-            <div>
+        <div class="flex flex-col justify-center items-center w-full sm:mt-10  lg:flex-row lg:flex-row-reverse lg:max-h-[480px] lg:max-w-[1111px] lg:mx-auto">
+            <div class="w-[100%] sm:mx-auto   sm:max-w-[689px] lg:flex-row lg:text-left lg:max-w-[448px] lg:max-h-[480px] lg:px-[0px] lg:mx-auto">
           <picture class="">
             <source
               srcset="../public/assets/about/desktop/image-about-hero.jpg"
-              media="(min-width: 426px)"
+              media="(min-width: 800px)"
             />
             <source
               srcset="../public/assets/about/tablet/image-about-hero.jpg"
-              media="(min-width: 800px)"
+              media="(min-width: 422px)"
             />
+            
             <img
-              class=""
+            class=" w-[100%] object-cover  sm:rounded-t-lg lg:rounded-none lg:rounded-r-lg lg:min-h-[480px]"
               src="../public/assets/about/mobile/image-about-hero.jpg"
               alt=""
             />
@@ -62,14 +63,14 @@
         </div>
         <div>
           <div
-            class="flex flex-col items-center bg-peach w-100 relative overflow-hidden z-10 px-5 py-32"
+            class="flex flex-col items-center bg-peach w-100 relative overflow-hidden z-10 px-5 py-32 sm:mx-auto sm:px-[52px]  sm:rounded-b-lg sm:max-w-[689px]  lg:min-h-[480px] lg:rounded-none lg:rounded-l-lg lg:text-left lg:max-h-[480px] lg:px-[95px] lg:mx-auto"
           >
             <div class="">
               <div class="w-100">
-                <p class="hero-text">About Us</p>
+                <p class="hero-text lg:text-left">About Us</p>
               </div>
               <div class="w-100 mt-4">
-                <p class="hero-subtext">
+                <p class="hero-subtext lg:text-left">
                   Founded in 2010, we are a creative agency that produces
                   lasting results for our clients. We've partnered with many
                   startups, corporations, and nonprofits alike to craft designs
@@ -90,23 +91,23 @@
         </div>
       </div>
 
-      <div class="flex flex-col justify-center items-center">
-        <div>
+      <div class="flex flex-col justify-center items-center w-full sm:mt-10  lg:flex-row lg:flex-row-reverse lg:max-h-[480px] lg:max-w-[1111px] lg:mx-auto">
+        <div class="w-[100%] sm:mx-auto   sm:max-w-[689px] lg:flex-row lg:text-left lg:max-w-[448px] lg:max-h-[480px] lg:px-[0px] lg:mx-auto">
           <picture class="">
-            <source
-              srcset="
-                ../public/assets/about/desktop/image-world-class-talent.jpg
-              "
-              media="(min-width: 426px)"
-            />
             <source
               srcset="
                 ../public/assets/about/tablet/image-world-class-talent.jpg
               "
+              media="(min-width: 422px)"
+            />
+            <source
+              srcset="
+                ../public/assets/about/desktop/image-world-class-talent.jpg
+              "
               media="(min-width: 800px)"
             />
             <img
-              class=""
+            class=" w-[100%] object-cover  sm:rounded-t-lg lg:rounded-none lg:rounded-r-lg lg:min-h-[480px]"
               src="../public/assets/about/mobile/image-world-class-talent.jpg"
               alt=""
             />
@@ -114,7 +115,7 @@
         </div>
         <div>
           <div
-            class="flex flex-col items-center bg-light-grey w-100 relative overflow-hidden z-10 px-5 py-20"
+            class="flex flex-col items-center bg-light-grey w-100 relative overflow-hidden z-10 px-5 py-32 sm:mx-auto sm:px-[52px] sm:rounded-b-lg sm:max-w-[689px]  lg:min-h-[480px] lg:rounded-none lg:rounded-l-lg lg:text-left lg:max-h-[480px] lg:px-[95px] lg:mx-auto"
           >
             <div class="">
               <div class="w-100">
@@ -141,7 +142,7 @@
         </div>
       </div>
       
-      <div class="mt-20 flex flex-col justify-center items-center">
+      <div class="mt-20 flex flex-col justify-center items-center lg:w-full lg:flex-row lg:justify-around lg:max-w-[1110px] lg:mx-auto ">
         <div class="flex flex-col justfiy-center items-center">
           <div class="relative">
             <img
@@ -157,14 +158,14 @@
               />
             </div>
           </div>
-          <div class="mt-10">
+          <div class="mt-10 lg:m-0">
             <p class="about-illustration-text-title">canada</p>
-            <button class="p-5 bg-peach rounded-lg">see location</button>
+            <button class="p-5 bg-peach rounded-lg text-white mt-10 uppercase text-sm illustration-text-title">see location</button>
           </div>
         </div>
 
 
-        <div class="flex flex-col justfiy-center items-center mt-20">
+        <div class="flex flex-col justfiy-center items-center mt-20 lg:mt-0">
             <div class="relative">
               <img
                 class="z-0 w-[200px] rotate-[270deg]"
@@ -179,13 +180,13 @@
                 />
               </div>
             </div>
-            <div class="mt-10">
+            <div class="mt-10 lg:m-0">
               <p class="about-illustration-text-title">australia</p>
-              <button class="p-5 bg-peach rounded-lg">see location</button>
+              <button class="p-5 bg-peach rounded-lg text-white mt-10 uppercase text-sm illustration-text-title">see location</button>
             </div>
           </div>
 
-          <div class="flex flex-col justfiy-center items-center mt-20">
+          <div class="flex flex-col justfiy-center items-center mt-20 lg:mt-0">
             <div class="relative">
               <img
                 class="z-0 w-[200px] rotate-180"
@@ -200,30 +201,30 @@
                 />
               </div>
             </div>
-            <div class="mt-10">
+            <div class="mt-10 lg:m-0">
               <p class="about-illustration-text-title">united kingdom</p>
-              <button class="p-5 bg-peach rounded-lg">see location</button>
+              <button class="p-5 bg-peach rounded-lg text-white mt-10 uppercase text-sm illustration-text-title">see location</button>
             </div>
           </div>
       </div>
 
-      <div class="mt-20 flex flex-col justify-center items-center">
-        <div>
+      <div class="flex flex-col justify-center items-center w-full mt-10  lg:flex-row lg:flex-row-reverse lg:max-h-[480px] lg:max-w-[1111px] lg:mx-auto">
+        <div class="w-[100%] sm:mx-auto   sm:max-w-[689px] lg:flex-row lg:text-left lg:max-w-[448px] lg:max-h-[480px] lg:px-[0px] lg:mx-auto">
           <picture class="">
-            <source
-              srcset="
-                ../public/assets/about/desktop/image-real-deal.jpg
-              "
-              media="(min-width: 426px)"
-            />
             <source
               srcset="
                 ../public/assets/about/tablet/image-real-deal.jpg
               "
+              media="(min-width: 422px)"
+            />
+            <source
+              srcset="
+                ../public/assets/about/desktop/image-real-deal.jpg
+              "
               media="(min-width: 800px)"
             />
             <img
-              class=""
+            class=" w-[100%] object-cover  sm:rounded-t-lg lg:rounded-none lg:rounded-r-lg lg:min-h-[480px]"
               src="../public/assets/about/mobile/image-real-deal.jpg"
               alt=""
             />
@@ -231,7 +232,7 @@
         </div>
         <div>
           <div
-            class="flex flex-col items-center bg-light-grey w-100 relative overflow-hidden z-10 px-5 py-20"
+          class="flex flex-col items-center bg-light-grey w-100 relative overflow-hidden z-10 px-5 py-32 sm:mx-auto sm:px-[52px] sm:pr-0 sm:rounded-b-lg sm:max-w-[689px]  l lg:min-h-[480px] lg:rounded-none lg:rounded-l-lg lg:text-left lg:max-h-[480px] lg:px-[95px] lg:mx-auto"
           >
             <div class="">
               <div class="w-100">
@@ -255,39 +256,47 @@
 
     <footer>
       <div class="bg-black pt-[253px] pb-[64px] mt-[294px] relative flex flex-col justify-center items-center w-100">
-        <div class="bg-peach absolute left-50 -top-56 py-[72px] px-[24px] w-100 max-w-[327px] rounded-lg">
-          <div>
-            <p class="footer-orangeblock-title">Let's talk about your project</p>
-            <p class="footer-orangeblock-body mt-5">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+        <div class="bg-peach absolute left-50 -top-56 py-[72px] px-[24px] w-full max-w-[327px] rounded-lg sm:max-w-[690px] md:max-w-[690px] lg:max-w-[1111px] lg:flex lg:justify-around">
+          <div class="lg:max-w-[459px]">
+            <p class="footer-orangeblock-title lg:text-left">Let's talk about your project</p>
+            <p class="footer-orangeblock-body mt-5 lg:text-left">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
           </div>
           <div>
-            <button class="p-4 bg-white rounded-lg mt-[32px]">get in touch</button>
+            <button class="p-4 bg-white rounded-lg mt-[32px] illustration-text-title uppercase">get in touch</button>
           </div>
         </div>
-
-
-        <div class="uppercase flex flex-col justify-center items-center"> 
-          <div class="pb-[32px] ">
+  
+  
+        <div class=" w-full uppercase flex flex-col justify-center items-center sm:flex-row sm:justify-around "> 
+          <div class="pb-[32px] sm:p-0 ">
             <img src="../public/assets/shared/desktop/logo-light.png" width="200" height="200" alt="logo"/>
           </div>
-          <div>
-            <p class="footer-link ">our company</p>
-            <p class="footer-link mt-[32px]">locations</p>
-            <p class="footer-link mt-[32px]">contact</p>
+          <div class="sm:flex sm:flex-row">
+            <div>
+              <p class="footer-link sm:mr-10">our company</p>
+            </div>
+            <div>
+              <p class="footer-link mt-[32px] sm:m-0 sm:mr-10">locations</p>
+  
+            </div>
+            <div>
+              <p class="footer-link mt-[32px] sm:m-0">contact</p>
+  
+            </div>
           </div>
         </div>
-
-
-        <div class="flex flex-col justify-center items-center">
+  
+  
+        <div class="flex flex-col justify-center items-center w-full sm:flex-row sm:justify-evenly sm:mt-20">
           <div>
-            <p class="footer-text-title mt-[40px]">Designo Central Office</p>
-            <p class="footer-text-body">
+            <p class="footer-text-title mt-[40px] sm:text-left sm:m-0">Designo Central Office</p>
+            <p class="footer-text-body sm:text-left">
               3886 Wellington StreetToronto, Ontario M9C 3J5            </p>
           </div>
           <div>
-            <p class="footer-text-title mt-[40px] ">Contact Us (Central Office)</p>
-            <p class="footer-text-body">P : +1 253-863-8967</p>
-            <p class="footer-text-body">M : contact@designo.co</p>
+            <p class="footer-text-title mt-[40px] sm:text-left sm:m-0">Contact Us (Central Office)</p>
+            <p class="footer-text-body sm:text-left">P : +1 253-863-8967</p>
+            <p class="footer-text-body sm:text-left">M : contact@designo.co</p>
           </div>
           <div class="mt-[40px] ">
             <ul class="flex">
@@ -296,7 +305,7 @@
               <li class="mr-[16px]"><img src="../public/assets/shared/desktop/icon-twitter.svg"/> </li>
               <li class="mr-[16px]"><img src="../public/assets/shared/desktop/icon-pinterest.svg"/> </li>
               <li><img src="../public/assets/shared/desktop/icon-instagram.svg"/> </li>
-
+  
             </ul>
           </div>
         </div>

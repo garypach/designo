@@ -15,7 +15,7 @@
   <body>
   <header class="header">
       <nav class="navbar z-50">
-          <a href="#" class="nav-logo">Designo</a>
+          <a href="#" class="nav-logo"><img src="../public/assets/shared/desktop/logo-dark.png" width="200"/></a>
           <ul class="nav-menu z-50">
               <li class="nav-item">
                   <a href="/src/about.html" class="nav-link">our company</a>
@@ -39,39 +39,41 @@
   </header>  
 
   <main>
-    <div class="flex flex-col items-center bg-peach w-100 relative overflow-hidden z-10 h-[100vh] min-h-[843px] px-5">
-      <div class="mt-20">
+      <div class="flex flex-col items-center  bg-peach w-100 relative overflow-hidden z-10 h-[100vh] min-h-[843px] px-5 sm:mt-10 sm:mx-auto sm:rounded-lg sm:max-w-[689px] lg:flex-row lg:justify-start lg:text-left lg:max-w-[1111px] lg:max-h-[640px] lg:px-[95px] lg:mx-auto">
+        <div class="mt-20 w-full max-w-[573px] lg:max-w-[540px] lg:mt-0">
+          <div class="w-100 ">
+            <p class="hero-text lg:text-left ">
+              Award-winning custom designs and digital branding solutions
+            </p>
+          </div>
+          <div class="w-100 mt-4 lg:mt-10">
+            <p class="hero-subtext lg:text-left">
+              With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.          </p>
+          </div>
+          <div class="mt-4 lg:mt-10">
+            <button class="bg-white px-5 py-3 rounded-lg uppercase illustration-text-title">learn more</button>
+          </div>
+        </div>
         <div class="w-100">
-          <p class="hero-text">
-            Award-winning custom designs and digital branding solutions
-          </p>
-        </div>
-        <div class="w-100 mt-4">
-          <p class="hero-subtext">
-            With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.          </p>
-        </div>
-        <div class="mt-4">
-          <button class="bg-white px-5 py-3 rounded-lg">learn more</button>
+          <img class="absolute top-10 lg:right-0" src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
+         </div>
+        <div class="absolute top-60 lg:right-0">
+         <img  class="h-[60rem] object-none "src="/public/assets/home/desktop/image-hero-phone.png" alt="image-hero-phone" />
         </div>
       </div>
-      <div class="w-100">
-        <img class="absolute top-10" src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
-       </div>
-      <div class="absolute top-60">
-       <img  class="h-[60rem] object-none "src="/public/assets/home/desktop/image-hero-phone.png" alt="image-hero-phone" />
-      </div>
-    </div>
-
-    <div class="flex flex-col justify-center px-5">
+ 
+ 
+    <div class="flex flex-col items-center justify-center px-5 w-100 lg:flex-row lg:mt-20">
 
      
-      <div class="relative rounded-lg bg-black mt-32 min-h-[250px] cursor-pointer">
+      <div class="relative rounded-lg bg-black mt-32 min-h-[250px] cursor-pointer lg:bg-peach lg:m-0 lg:mr-5">
         <a href="/src/webDesign.html">
         <picture class="rounded-lg">
+          <source srcset="../public/assets/home/desktop/image-web-design-large.jpg"
+          media="(min-width: 1024px)">
           <source srcset="../public/assets/home/tablet/image-web-design.jpg"
           media="(min-width: 426px)">
-          <source srcset="../public/assets/home/desktop/image-web-design-small.jpg"
-          media="(min-width: 800px)">
+       
           <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-web-design.jpg" alt="" />
         </picture>
         <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
@@ -80,14 +82,17 @@
           </div>      
         </a> 
       </div>
-    
-      <div class="relative rounded-lg bg-black mt-5 min-h-[250px]">
+
+
+    <div>
+      <div class="relative rounded-lg bg-black mt-5 min-h-[250px] lg:m-0">
         <a href="/src/appDesign.html">
         <picture class="rounded-lg">
+          <source srcset="../public/assets/home/desktop/image-app-design.jpg"
+          media="(min-width: 1024px)">
           <source srcset="../public/assets/home/tablet/image-app-design.jpg"
           media="(min-width: 426px)">
-          <source srcset="../public/assets/home/desktop/image-app-design.jpg"
-          media="(min-width: 800px)">
+         
           <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-app-design.jpg" alt="" />
         </picture>
         <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
@@ -100,10 +105,11 @@
       <div class="relative rounded-lg bg-black mt-5 min-h-[250px]">
         <a href="/src/graphicDesign.html">
         <picture class="rounded-lg">
+          <source srcset="../public/assets/home/desktop/image-graphic-design.jpg"
+          media="(min-width: 1024px)">
           <source srcset="../public/assets/home/tablet/image-graphic-design.jpg"
           media="(min-width: 426px)">
-          <source srcset="../public/assets/home/desktop/image-graphic-design.jpg"
-          media="(min-width: 800px)">
+        
           <img class="rounded-lg opacity-40 w-[100%] min-h-[250px]" src="../public/assets/home/mobile/image-graphic-design.jpg" alt="" />
         </picture>
         <div class="absolute top-[40%] bottom-[40%] left-0 right-0">
@@ -112,48 +118,51 @@
           </div>     
           </a>  
       </div>
+    </div>
+      
+    
 
     </div>
 
-    <div class="px-5 mt-32">
+    <div class="px-5 mt-32 flex flex-col items-center justify-center lg:flex-row">
 
-      <div class="flex flex-col justfiy-center items-center">
-        <div class="relative">
-          <img class="z-0 w-[200px] rotate-[270deg]"src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
+      <div class="flex flex-col justfiy-center items-center sm:flex-row md:flex-row lg:flex-col lg:max-w-[350px] lg:mr-20">
+        <div class="relative sm:mr-[48px] md:mr-[48px] lg:mr-0">
+          <img class="z-0 w-[200px] rotate-[270deg] min-w-[202px]"src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
           <div class="absolute top-0">
-            <img  class="z-50" src="../public/assets/home/desktop/illustration-passionate.svg" alt="pasionate ilustration"/>
+            <img  class="z-50 min-w-[202px]" src="../public/assets/home/desktop/illustration-passionate.svg" alt="pasionate ilustration"/>
           </div>
         </div>
-        <div class="mt-10">
-          <p class="illustration-text-title">passionate</p>
-          <p class="illustration-text-body mt-10">Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p>
+        <div class="mt-10 sm:max-w-[640px] sm:mt-0">
+          <p class="illustration-text-title uppercase sm:text-left md:text-left lg:text-center">passionate</p>
+          <p class="illustration-text-body mt-10 sm:text-left md:text-left lg:text-center">Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions.</p>
         </div>
       </div>
 
 
-      <div class="flex flex-col justfiy-center items-center mt-20">
-        <div class="relative">
-          <img class="z-0 w-[200px] rotate-[270deg]"src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
+      <div class="flex flex-col justfiy-center items-center mt-20 sm:flex-row md:flex-row lg:flex-col lg:mt-0 lg:max-w-[350px] lg:mr-20">
+        <div class="relative sm:mr-[48px] md:mr-[48px] lg:mr-0">
+          <img class="z-0 w-[200px] rotate-[270deg] min-w-[202px]"src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
           <div class="absolute top-0">
-            <img  class="z-50" src="../public/assets/home/desktop/illustration-resourceful.svg" alt="pasionate ilustration"/>
+            <img  class="z-50 min-w-[202px]" src="../public/assets/home/desktop/illustration-resourceful.svg" alt="pasionate ilustration"/>
           </div>
         </div>
-        <div class="mt-10">
-          <p class="illustration-text-title">resourceful</p>
-          <p class="illustration-text-body mt-10">Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs.</p>
+        <div class="mt-10 sm:max-w-[640px] sm:mt-0">
+          <p class="illustration-text-title uppercase sm:text-left md:text-left lg:text-center">resourceful</p>
+          <p class="illustration-text-body mt-10 sm:text-left md:text-left lg:text-center">Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs.</p>
         </div>
       </div>
 
-      <div class="flex flex-col justfiy-center items-center mt-20">
-        <div class="relative">
-          <img class="z-0 w-[200px] rotate-[270deg]"src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
+      <div class="flex flex-col justfiy-center items-center mt-20 sm:flex-row md:flex-row lg:flex-col lg:mt-0 lg:max-w-[350px]">
+        <div class="relative sm:mr-[48px] md:mr-[48px] lg:mr-0">
+          <img class="z-0 w-[200px] rotate-[270deg] min-w-[202px]"src="/public/assets/home/desktop/bg-pattern-hero-home.svg" alt="image-hero-phone" />
           <div class="absolute top-0">
-            <img  class="z-50" src="../public/assets/home/desktop/illustration-friendly.svg" alt="pasionate ilustration"/>
+            <img  class="z-50 min-w-[202px]" src="../public/assets/home/desktop/illustration-friendly.svg" alt="pasionate ilustration"/>
           </div>
         </div>
-        <div class="mt-10">
-          <p class="illustration-text-title">friendly</p>
-          <p class="illustration-text-body mt-10"> We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p>
+        <div class="mt-10 sm:max-w-[640px] sm:mt-0">
+          <p class="illustration-text-title uppercase sm:text-left md:text-left lg:text-center">friendly</p>
+          <p class="illustration-text-body mt-10 sm:text-left md:text-left lg:text-center"> We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide.</p>
         </div>
       </div>
 
@@ -163,39 +172,47 @@
 
   <footer>
     <div class="bg-black pt-[253px] pb-[64px] mt-[294px] relative flex flex-col justify-center items-center w-100">
-      <div class="bg-peach absolute left-50 -top-56 py-[72px] px-[24px] w-100 max-w-[327px] rounded-lg">
-        <div>
-          <p class="footer-orangeblock-title">Let's talk about your project</p>
-          <p class="footer-orangeblock-body mt-5">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
+      <div class="bg-peach absolute left-50 -top-56 py-[72px] px-[24px] w-full max-w-[327px] rounded-lg sm:min-w-[690px] md:min-w-[690px] lg:max-w-[1111px] lg:flex lg:justify-around">
+        <div class="lg:max-w-[459px]">
+          <p class="footer-orangeblock-title lg:text-left">Let's talk about your project</p>
+          <p class="footer-orangeblock-body mt-5 lg:text-left">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
         </div>
         <div>
-          <button class="p-4 bg-white rounded-lg mt-[32px]">get in touch</button>
+          <button class="p-4 bg-white rounded-lg mt-[32px] illustration-text-title uppercase">get in touch</button>
         </div>
       </div>
 
 
-      <div class="uppercase flex flex-col justify-center items-center"> 
-        <div class="pb-[32px] ">
+      <div class=" w-full uppercase flex flex-col justify-center items-center sm:flex-row sm:justify-around "> 
+        <div class="pb-[32px] sm:p-0 ">
           <img src="../public/assets/shared/desktop/logo-light.png" width="200" height="200" alt="logo"/>
         </div>
-        <div>
-          <p class="footer-link ">our company</p>
-          <p class="footer-link mt-[32px]">locations</p>
-          <p class="footer-link mt-[32px]">contact</p>
+        <div class="sm:flex sm:flex-row">
+          <div>
+            <p class="footer-link sm:mr-10">our company</p>
+          </div>
+          <div>
+            <p class="footer-link mt-[32px] sm:m-0 sm:mr-10">locations</p>
+
+          </div>
+          <div>
+            <p class="footer-link mt-[32px] sm:m-0">contact</p>
+
+          </div>
         </div>
       </div>
 
 
-      <div class="flex flex-col justify-center items-center">
+      <div class="flex flex-col justify-center items-center w-full sm:flex-row sm:justify-evenly sm:mt-20">
         <div>
-          <p class="footer-text-title mt-[40px]">Designo Central Office</p>
-          <p class="footer-text-body">
+          <p class="footer-text-title mt-[40px] sm:text-left sm:m-0">Designo Central Office</p>
+          <p class="footer-text-body sm:text-left">
             3886 Wellington StreetToronto, Ontario M9C 3J5            </p>
         </div>
         <div>
-          <p class="footer-text-title mt-[40px] ">Contact Us (Central Office)</p>
-          <p class="footer-text-body">P : +1 253-863-8967</p>
-          <p class="footer-text-body">M : contact@designo.co</p>
+          <p class="footer-text-title mt-[40px] sm:text-left sm:m-0">Contact Us (Central Office)</p>
+          <p class="footer-text-body sm:text-left">P : +1 253-863-8967</p>
+          <p class="footer-text-body sm:text-left">M : contact@designo.co</p>
         </div>
         <div class="mt-[40px] ">
           <ul class="flex">

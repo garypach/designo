@@ -78,3 +78,28 @@ text-align: center;
 
 color: #333136;
 }
+
+
+@media (min-width: 1024px) {
+    .hero-text{
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 48px;
+        /* or 100% */
+        
+        
+        color: #FFFFFF;
+    }
+    .hero-subtext{
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    
+}
