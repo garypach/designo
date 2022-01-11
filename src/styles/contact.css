@@ -1,0 +1,56 @@
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.form-input{
+    background: transparent;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    border: 0;
+    border: none
+}
+.form-input::placeholder{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height, or 173% */
+    
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+text-align: left;
+
+}
+
+.form-group{
+    border-bottom: 1px solid white;
+}
+.name-error-message{
+    visibility: hidden;
+}
+.name-error-message--active{
+    visibility: visible;
+}
+.email-error-message{
+    visibility: hidden;
+}
+.email-error-message--active{
+    visibility: visible;
+}
+
+.phone-error-message{
+    visibility: hidden;
+}
+.phone-error-message--active{
+    visibility: visible;
+}
+.message-error-message{
+    visibility: hidden;
+}
+.message-error-message--active{
+    visibility: visible;
+}

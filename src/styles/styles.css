@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('contact.css');
 @import url("locations.css");
 @import url("about.css");
 @import url("web_design.css");
